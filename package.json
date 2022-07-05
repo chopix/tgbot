@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "knex": "^2.1.0",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "node-telegram-bot-api": "^0.58.0",
+    "samp-query": "^0.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "scripts": {
+    "serve": "nodemon ./index.js",
+    "start": "node index.js"
+  }
+}
